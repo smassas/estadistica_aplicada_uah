@@ -1,0 +1,917 @@
+---
+title: "Módulo 1"
+subtitle: "Presentación del curso"
+author: "Sebastián Massa Slimming"
+date: "`r Sys.Date()`"
+output:
+    xaringan::moon_reader:
+      seal: false
+      lib_dir: libs
+      highlightStyle: github
+      highlightLines: true
+      countIncrementalSlides: false
+      
+---
+
+class: left, middle, bg_karl1, h1
+
+<img src= "images/logo_udp.png" width = "330" height = "120"> 
+## Presentación del curso
+
+### Sebastián Massa Slimming | Elías Alvear Binimelis
+### 6 de marzo 2025
+
+
+```{css, echo = F}
+.bg_karl1 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl1::before {    
+      content: "";
+      background-image: url('https://scitechdaily.com/images/Hacking-Cybersecurity.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h1 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+class: right, middle, inverse
+# 1. Una breve presentación
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+class: inverse
+<img src= "images/docencia.png">
+
+---
+class: inverse
+# Línea de investigación 
+<img src= "images/paper1.png">
+---
+class: inverse
+<img src = "images/sicss_1.jpeg">
+
+---
+class: inverse
+# Summer Institutes in Computational Social Science (SICSS)
+
+Colaboración entre ciencias sociales y ciencia de la computación
+
+<img src = "images/sicss_2.jpg">
+
+---
+class: inverse
+
+<img src = "http://www.mat.uc.cl/archivos/noticias/2024-10-09_especialistas-en-ia-de-la-facultad-de-matematicas-dictan-exitoso-taller-en-recla-2024.png">
+
+<img src= "images/congreso.jpeg">
+
+---
+
+class: right, middle, inverse
+# 2. ¿Mi objetivo?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+class: inverse
+<img src= "images/ds_2.jpeg">
+
+---
+class: inverse
+<img src= "images/la_segunda.png">
+
+---
+
+class: inverse, middle, center
+# Open Federation For Sharing Civic Tech
+<img src = "images/poplus.jpg">
+
+---
+class: inverse
+# Asociación de Marketing Digital y Data
+<img src = "images/marketing_entrevista.png">
+
+---
+class: inverse, center
+<img src= "images/ds_1.png">
+
+<img src= "images/ds_1_1.png" width = "600" height = "320">
+
+---
+class: inverse, center
+<img src= "images/datapalooza.png" width = "700" height = "520">
+
+
+---
+
+class: inverse, center, middle
+<img src= "images/gif_datapalooza.gif" width = "380" height = "550">
+---
+class: inverse
+.pull-left[
+<img src= "images/amparo_justicia.jpeg" width = "800" height = "320">
+]
+
+.pull-right[
+<img src= "images/amparo_justicia_2.jpeg" width = "280" height = "520">
+]
+---
+class: center, middle
+# Google Mobility Report 
+
+<img src = "https://www.mat.uc.cl/archivos/noticias/visualizador-movilidad-1665x905.png">
+---
+class: inverse
+# Índice Transbank
+
+<img src = "images/shiny.png" width = "850" height = "520">
+
+---
+
+<img src ="images/transbank1.png">
+
+---
+
+class: inverse
+# Graficador Centro de Estudios Públicos
+
+<img src = "images/cep.png">
+
+---
+class: inverse
+# Kit Digital
+<img src = "images/kit_digital.png">
+
+---
+class: right, middle, inverse
+# 3. ¿Pero cómo es realmente mi realidad?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+class: inverse, center
+<img src = "images/vida_programando.jpg">
+
+---
+
+
+class: right, middle, inverse
+# Mi sueño frustrado
+
+.pull-left[
+<img src= "images/grabacion.jpeg" height = "480">
+]
+
+.pull-right[
+<img src= "images/grabacion_2.jpeg">
+]
+
+---
+class: center, middle, inverse
+# Un perro "pegote"
+<img src = "images/realidad.png", height = "480">
+
+---
+
+class: center, middle, inverse
+<img src = "images/lectura_frustrada.jpeg">
+
+---
+class: right, middle, inverse, bg_karl30, h30
+# 4. ¿Y cómo ha sido la experiencia desde que inicié en esto? 
+
+```{css, echo = F}
+.bg_karl30 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl30::before {    
+      content: "";
+      background-image: url("https://i.pinimg.com/originals/0e/5f/29/0e5f291913819eeefcea5a8a6b388afe.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h30 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: right, middle, inverse, bg_karl31, h31
+
+```{css, echo = F}
+.bg_karl31 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl31::before {    
+      content: "";
+      background-image: url("https://i.redd.it/3z88nwl2qkg61.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h31 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: middle, right, inverse, bg_karl41, h41
+# ¡Cometí muchos errores en el camino! 
+
+```{css, echo = F}
+.bg_karl41 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl41::before {    
+      content: "";
+      background-image: url("https://i.pinimg.com/originals/41/ef/34/41ef34590ba657ae90197568c560ae34.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h41 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: middle, right, inverse, bg_karl42, h42
+# No encontré las causas rápidamente
+
+```{css, echo = F}
+.bg_karl42 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl42::before {    
+      content: "";
+      background-image: url("https://media.giphy.com/media/lq2u8GnHsDMTCzs5f4/giphy.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h42 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: middle, right, inverse, bg_karl43, h43
+# Tuve rabia contra el mundo
+
+```{css, echo = F}
+.bg_karl43 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl43::before {    
+      content: "";
+      background-image: url("https://media.giphy.com/media/l0HlIxGxlE5AXV11m/source.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h43 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: middle, right, inverse, bg_karl44, h44
+# Pero tuve que prestar atención a la lógica
+
+```{css, echo = F}
+.bg_karl44 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl44::before {    
+      content: "";
+      background-image: url("https://static.theclinic.cl/media/2021/11/dicaprio.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h44 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+## Teoría y práctica de la investigación social
+
+```{r, echo = TRUE, eval = TRUE}
+
+axioma <- "Si me dedico a las cs. sociales computacionales"
+
+resultado <- ifelse(grepl(pattern = "cs. sociales", axioma),
+                    "Debo programar con teoría",
+                    "Olvidarme de este camino")
+```
+
+```{r}
+print(resultado)
+```
+
+<img src = "images/bourdieu.gif">
+---
+
+class: middle, right, inverse, bg_karl45, h45 
+# Siempre volvía al loop infinito de Google. No iba a inventar la rueda.
+
+```{css, echo = F}
+.bg_karl45 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl45::before {    
+      content: "";
+      background-image: url("https://i.redd.it/g2naxsim9do91.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h45 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: center, middle, bg_karl88, h88
+# ¿Volver a estudiar matemática/estadística?
+
+```{css, echo = F}
+.bg_karl88 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl88::before {    
+      content: "";
+      background-image: url('https://i0.wp.com/media.giphy.com/media/3o7btPCcdNniyf0ArS/giphy.gif?w=1170&ssl=1');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h88 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+
+
+---
+
+class: center, middle, bg_karl6, h6
+
+# En las dinámicas organizacionales, la conformación de equipos multidisciplinarios es muy útil.
+
+```{css, echo = F}
+
+.bg_karl6 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl6::before {    
+      content: "";
+      background-image: url('https://www.bu.edu/files/2019/06/DataScience-Header.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h6 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: center, middle, bg_karl7, h7
+
+# Programar es un arte. Toda persona interesada puede aprender. 
+
+```{css, echo = F}
+
+.bg_karl7 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl7::before {    
+      content: "";
+      background-image: url('https://i0.wp.com/analyticsindiamag.com/wp-content/uploads/2022/11/programming.gif?fit=1281%2C716&ssl=1');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h7 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+class: center, middle, bg_karl2, h3
+
+# Los datos necesitan de relatos para poder ser internalizados adecuadamente.
+
+```{css, echo = F}
+
+.bg_karl2 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl2::before {    
+      content: "";
+      background-image: url('https://cdn.dribbble.com/users/31818/screenshots/5054596/gif-dribb.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h3 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+class: right, middle, inverse
+# 5. ¿Desde dónde podemos aportar?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+
+## [Natural Language Processing]()
+
+<img src="https://miro.medium.com/v2/resize:fit:679/0*jshhzhzAYzB5Fx3n.gif" style="border: 0; width: 100%; height: 30%">
+
+---
+## [Text Mining]()
+<img src = "images/boric.png">
+
+---
+class: right bg_karl14 h14
+## [Sentimental analysis]()
+
+```{css, echo = F}
+
+.bg_karl14 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl14::before {    
+      content: "";
+      background-image: url('https://www.rcharlie.com/images/blog/fitter-happier/fitter_happier_gif.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h14 {
+  color: black;
+  text-shadow: 2px 2px 4px white;
+}
+
+```
+
+---
+## [Sentimental analysis]()
+
+<img src="https://hackernoon.com/hn-images/1*8X2PZFQ7JjNGeMC-dE4jpA.gif" width="800" height="500" />
+
+---
+class: right middle bg_karl10 h10
+# Investigación de mercados
+
+```{css, echo = F}
+
+.bg_karl10 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl10::before {    
+      content: "";
+      background-image: url('https://www.rcharlie.com/images/blog/coachellar/3dplot.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h10 {
+  color: black;
+  text-shadow: 2px 2px 4px white;
+}
+
+```
+
+---
+class: middle center bg_karl37 h7
+# Aplicaciones web 
+
+```{css, echo = F}
+
+.bg_karl37 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl37::before {    
+      content: "";
+      background-image: url('https://humansofdata.atlan.com/wp-content/uploads/2019/01/water_avail.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h7 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+
+---
+
+# Técnicas de [web scraping]()
+
+<img src = "https://miro.medium.com/v2/1*uzrtgKTEbTJP8vt0GBXgBw.gif" height = "480" width = "900" >
+
+
+---
+
+# Aplicaciones en [sociología del fútbol]()
+
+<img src = "https://miro.medium.com/v2/resize:fit:1400/1*Jtw5OXU6O1DgrwQmjLY6hQ.gif">
+
+---
+
+# Simulaciones matemática con [iteraciones]()
+
+<img src="https://miro.medium.com/v2/resize:fit:1400/1*xIXqf46yYonSXkUOWcOCvg.gif">
+
+
+---
+# Aplicaciones de [geolocalización]()
+
+<iframe src="https://code.iadb.org/sites/default/files/2022-11/VideoWISH01_0.gif" style="border: 0; width: 100%; height: 60%""></iframe>
+
+---
+
+# Aplicaciones de [análisis de redes]()
+
+<iframe src="https://miro.medium.com/v2/resize:fit:2000/1*x3wy4eO68EhrgLVY231DWg.gif" style="border: 0; width: 100%; height: 60%""></iframe>
+
+---
+
+## Ejemplo específico
+
+<iframe src="images/highchart.html" style="border: 0; width: 100%; height: 80%""></iframe>
+
+---
+
+class: right, middle, inverse
+# 6. ¿Qué retos tenemos hoy?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+
+class: middle center bg_karl18 h18
+
+```{css, echo = F}
+
+.bg_karl18 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl18::before {    
+      content: "";
+      background-image: url('https://img.thedailybeast.com/image/upload/c_crop,d_placeholder_euli9k,h_562,w_1000,x_0,y_0/dpr_2.0/c_limit,w_740/fl_lossy,q_auto/v1507750191/171011-Woodruff-Ackerman-cambridge-russia-scoop-hero_lkkx2o');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h18 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: middle center bg_karl20 h20
+
+```{css, echo = F}
+
+.bg_karl20 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl20::before {    
+      content: "";
+      background-image: url('https://c.tenor.com/yGfc8apeh2UAAAAC/pills-drugs.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 0.9;
+      z-index: -1;
+}
+
+.h20 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+
+---
+
+class: middle center bg_karl21 h21
+
+```{css, echo = F}
+
+.bg_karl21 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl21::before {    
+      content: "";
+      background-image: url('https://i0.wp.com/youarenotsosmart.com/wp-content/uploads/2013/05/bomberhit.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h21 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+class: middle center bg_karl21 h21
+
+<img src = "https://esikigai.com/wp-content/uploads/2021/07/Captura-de-pantalla-2021-07-25-a-las-9.55.28.png" width = "600" height = "400">
+
+```{css, echo = F}
+
+.bg_karl21 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl21::before {    
+      content: "";
+      background-image: url('https://i0.wp.com/youarenotsosmart.com/wp-content/uploads/2013/05/bomberhit.gif');
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h21 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
+---
+
+class: right, middle, inverse
+# 7. ¿Veamos un ejemplo práctico?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+class: inverse
+<img src = "images/mumbo_1.png">
+---
+class: inverse
+<img src = "images/mumbo_2.png">
+---
+class: inverse
+<img src = "images/mumbo_3.png">
+---
+class: inverse
+<img src = "images/mumbo_4.png">
+---
+class: inverse
+<img src = "images/mumbo_5.png">
+---
+
+class: right, middle, inverse
+# 8. Ejercicio de diagnóstico
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+<img src = "images/QR_diagnostico.png">
+
+[**Click aquí para ver diagnóstico**](https://es.surveymonkey.com/r/LH567ZX)
