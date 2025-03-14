@@ -14,12 +14,11 @@ output:
 ---
 
 class: left, middle, bg_karl1, h1
-
-<img src= "images/logo_udp.png" width = "330" height = "120"> 
+<img src= "images/logo_3.jpg" width = "330" height = "100"> 
 ## Presentación del curso
 
 ### Sebastián Massa Slimming | Elías Alvear Binimelis
-### 6 de marzo 2025
+### 14 de marzo 2025
 
 
 ```{css, echo = F}
@@ -76,7 +75,7 @@ class: inverse
 class: inverse
 # Summer Institutes in Computational Social Science (SICSS)
 
-Colaboración entre ciencias sociales y ciencia de la computación
+Colaboración entre ciencias de la computación y ciencias sociales
 
 <img src = "images/sicss_2.jpg">
 
@@ -170,6 +169,49 @@ class: inverse
 # Kit Digital
 <img src = "images/kit_digital.png">
 
+
+---
+
+
+class: right, middle, inverse
+# ¿Proyectos actuales?
+
+```{css, echo = FALSE}
+.inverse {
+  background-color: #272822;
+  color: #d6d6d6;
+  text-shadow: 0 0 20px #333;
+}
+```
+
+---
+# Fondecyt de Iniciación N°11240713
+
+Implementar algoritmo de web scraping con Python y R para extracción de información de toda la dotación ministerial
+histórica del Estado de Chile, en proyecto titulado: "Cambio político y reconfiguraciones profesionales del Estado en Chile
+2015-2025: explorando afinidades entre alternancia en el poder y emergencia de nuevos profesionalismos públicos y
+tecnocracias post-neoliberales".
+
+<img src = "https://arc-anglerfish-arc2-prod-copesa.s3.amazonaws.com/public/Y2GBK7MEKBHBFJ522TUJNCDDU4.jpg">
+
+
+---
+# App de denuncias por delitos sexuales
+
+Creación de herramienta que facilita el acceso a información de manera interactiva y sencilla respecto al ingreso y
+tramitación de causas de delitos sexuales cometidos contra niños, niñas y adolescentes, considerando datos del Ministerio
+Público por Ley de Transparencia.
+
+<img src = "https://amparoyjusticia.cl/wp-content/uploads/2023/04/business-news-notici-scaled.jpg">
+
+
+---
+# Análisis de brechas entre universidades e industra
+<img src = "images/correspondencia_int.png">
+
+---
+# Scoring de perfiles laborales (Trabajando.com) vía web scraping para determinar "perfil ideal"
+<img src = "https://www.hibernian-recruitment.com/wp-content/uploads/2023/05/data-captains-radar-chart-1024x558.jpg">
 ---
 class: right, middle, inverse
 # 3. ¿Pero cómo es realmente mi realidad?
@@ -335,7 +377,7 @@ class: middle, right, inverse, bg_karl42, h42
 ---
 
 class: middle, right, inverse, bg_karl43, h43
-# Tuve rabia contra el mundo
+# Tuve rabia contra el mundo 
 
 ```{css, echo = F}
 .bg_karl43 {
@@ -396,22 +438,96 @@ class: middle, right, inverse, bg_karl44, h44
 
 ---
 
-## Teoría y práctica de la investigación social
+class: right, middle, inverse, bg_karl82, h82
 
-```{r, echo = TRUE, eval = TRUE}
+```{css, echo = F}
+.bg_karl82 {
+  position: relative;
+  z-index: 1;
+}
 
-axioma <- "Si me dedico a las cs. sociales computacionales"
+.bg_karl82::before {    
+      content: "";
+      background-image: url("https://i.pinimg.com/originals/14/63/3e/14633e66ab05b4ad29b36a592a27070e.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
 
-resultado <- ifelse(grepl(pattern = "cs. sociales", axioma),
-                    "Debo programar con teoría",
-                    "Olvidarme de este camino")
+.h82 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 ```
 
-```{r}
-print(resultado)
+
+---
+class: right, middle, inverse, bg_karl35, h35
+
+```{css, echo = F}
+.bg_karl35 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl35::before {    
+      content: "";
+      background-image: url("https://media1.tenor.com/m/i3lImBg2UEQAAAAd/scaler-create-impact.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h35 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
 ```
 
-<img src = "images/bourdieu.gif">
+
+---
+
+class: middle, right, inverse, bg_karl5, h5
+# Entramos en un error, solucionamos y volvemos...
+
+```{css, echo = F}
+.bg_karl5 {
+  position: relative;
+  z-index: 1;
+}
+
+.bg_karl5::before {    
+      content: "";
+      background-image: url("https://i.redd.it/s28zf8y4pea91.gif");
+      background-size: cover;
+      position: absolute;
+      top: 0px;
+      right: 0px;
+      bottom: 0px;
+      left: 0px;
+      opacity: 1;
+      z-index: -1;
+}
+
+.h5 {
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+```
+
 ---
 
 class: middle, right, inverse, bg_karl45, h45 
@@ -443,10 +559,15 @@ class: middle, right, inverse, bg_karl45, h45
 
 ```
 
+
+---
+
+<img src = "https://miro.medium.com/v2/resize:fit:1280/0*k2e54v9911Mrl303">
+
 ---
 
 class: center, middle, bg_karl88, h88
-# ¿Volver a estudiar matemática/estadística?
+# ¿Volver a estudiar matemática/estadística/programación?
 
 ```{css, echo = F}
 .bg_karl88 {
@@ -473,7 +594,6 @@ class: center, middle, bg_karl88, h88
 }
 
 ```
-
 
 
 ---
@@ -597,6 +717,11 @@ class: right, middle, inverse
 <img src = "images/boric.png">
 
 ---
+
+## [Library Managment System]()
+<img src = "https://pythongeeks.org/wp-content/uploads/2022/01/library-management-system-project-output.webp">
+
+---
 class: right bg_karl14 h14
 ## [Sentimental analysis]()
 
@@ -628,13 +753,13 @@ class: right bg_karl14 h14
 ```
 
 ---
-## [Sentimental analysis]()
+## [Workflow DB]()
 
-<img src="https://hackernoon.com/hn-images/1*8X2PZFQ7JjNGeMC-dE4jpA.gif" width="800" height="500" />
+<img src="https://www.bibliometrix.org/home/images/2022/03/29/screen-shot-03-29-22-at-09.41-am.png" width="800" height="500" />
 
 ---
 class: right middle bg_karl10 h10
-# Investigación de mercados
+# Análisis de cluster
 
 ```{css, echo = F}
 
@@ -664,6 +789,7 @@ class: right middle bg_karl10 h10
 ```
 
 ---
+
 class: middle center bg_karl37 h7
 # Aplicaciones web 
 
@@ -676,7 +802,7 @@ class: middle center bg_karl37 h7
 
 .bg_karl37::before {    
       content: "";
-      background-image: url('https://humansofdata.atlan.com/wp-content/uploads/2019/01/water_avail.gif');
+      background-image: url('https://i0.wp.com/www.beinspired.no/wp-content/uploads/2019/10/BI-Dendogram.jpg');
       background-size: cover;
       position: absolute;
       top: 0px;
@@ -694,19 +820,17 @@ class: middle center bg_karl37 h7
 
 ```
 
+---
+
+<img src = "https://i0.wp.com/www.beinspired.no/wp-content/uploads/2019/10/BIAuthorTime-1.jpg">
+
 
 ---
 
 # Técnicas de [web scraping]()
 
-<img src = "https://miro.medium.com/v2/1*uzrtgKTEbTJP8vt0GBXgBw.gif" height = "480" width = "900" >
+<img src = "https://programminghistorian.org/images/introduccion-al-web-scraping-usando-r/introduccion-al-web-scraping-usando-r-09.png" height = "480" width = "900" >
 
-
----
-
-# Aplicaciones en [sociología del fútbol]()
-
-<img src = "https://miro.medium.com/v2/resize:fit:1400/1*Jtw5OXU6O1DgrwQmjLY6hQ.gif">
 
 ---
 
@@ -716,21 +840,16 @@ class: middle center bg_karl37 h7
 
 
 ---
-# Aplicaciones de [geolocalización]()
+# Aplicaciones de [machine learning]()
 
-<iframe src="https://code.iadb.org/sites/default/files/2022-11/VideoWISH01_0.gif" style="border: 0; width: 100%; height: 60%""></iframe>
+<img src="https://rforanalytics.com/06-method3_files/figure-html/bib7-1.png">
 
 ---
 
 # Aplicaciones de [análisis de redes]()
 
-<iframe src="https://miro.medium.com/v2/resize:fit:2000/1*x3wy4eO68EhrgLVY231DWg.gif" style="border: 0; width: 100%; height: 60%""></iframe>
+<img src = "https://www.bibliometrix.org/home/images/2022/04/29/screen-shot-11-01-19-at-11.12-am.png">
 
----
-
-## Ejemplo específico
-
-<iframe src="images/highchart.html" style="border: 0; width: 100%; height: 80%""></iframe>
 
 ---
 
@@ -871,47 +990,3 @@ class: middle center bg_karl21 h21
 
 ```
 
----
-
-class: right, middle, inverse
-# 7. ¿Veamos un ejemplo práctico?
-
-```{css, echo = FALSE}
-.inverse {
-  background-color: #272822;
-  color: #d6d6d6;
-  text-shadow: 0 0 20px #333;
-}
-```
-
----
-class: inverse
-<img src = "images/mumbo_1.png">
----
-class: inverse
-<img src = "images/mumbo_2.png">
----
-class: inverse
-<img src = "images/mumbo_3.png">
----
-class: inverse
-<img src = "images/mumbo_4.png">
----
-class: inverse
-<img src = "images/mumbo_5.png">
----
-
-class: right, middle, inverse
-# 8. Ejercicio de diagnóstico
-
-```{css, echo = FALSE}
-.inverse {
-  background-color: #272822;
-  color: #d6d6d6;
-  text-shadow: 0 0 20px #333;
-}
-```
-
-<img src = "images/QR_diagnostico.png">
-
-[**Click aquí para ver diagnóstico**](https://es.surveymonkey.com/r/LH567ZX)
